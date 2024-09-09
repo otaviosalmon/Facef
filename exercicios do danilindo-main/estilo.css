@@ -1,0 +1,11 @@
+#container{
+    border: 10px ridge seagreen;
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    padding-top: 0px;
+    
+}
+button{
+    border: 3px solid black;
+}

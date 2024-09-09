@@ -1,0 +1,38 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+    <link rel="stylesheet" href="ex5.css">
+</head>
+<body>
+    <div id="container">
+        <div>
+            Numero 1 <input type="number" id="n1">
+        </div>
+        <div>
+            Numero 2 <input type="number" id="n2">
+        </div>
+        <div id="divB">
+            Escolha a operação
+            <select id="select">
+                <option value="1"> Média </option>
+                <option value="2"> Subtração </option>
+                <option value="3"> Produto </option>
+                <option value="4"> Divisão </option>
+            </select>
+            <div>
+                <input type="button" value="Calcular escolha" onclick="ex5()">
+            </div>
+            <div id="divResultado">
+                <p>
+                    O resultado da operação é <span id="resultado"> </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="lista2.js"></script>
+ </body>
+</html>
